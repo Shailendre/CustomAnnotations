@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Created by shailendra.singh on 4/11/17.
  *
- * usage - @MethodType {Type.Me}
+ * usage - @MethodType(value={MethodType.Type.HELPER})
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

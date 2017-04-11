@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  *  Created by shailendra.singh on 4/11/17.
  *
- *  usage - @Author shailendra.singh
+ *  usage - @Author(value="shailendra.singh")
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
